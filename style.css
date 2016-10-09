@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Cantarell';
+
+@import url('icons/style.css');
+
+html, body {
+  height: 100%;
+  font-family: Cantarell, icomoon, sans-serif;
+  scroll-behavior: smooth; /* browsers other than firefox
+                              y u make this so harddddddd */
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+#landing {
+  background: #2980b9;
+  color: #fff;
+}
+
+#landing-content {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  width: 100%;
+}
+
+.next {
+  width: 100%;
+  text-align: center;
+}
+
+.next a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+}
+
+.top a {
+  display:inline-block;
+  position:absolute;
+  /* Safari */
+  -webkit-transform: rotate(180deg);
+
+  /* Firefox */
+  -moz-transform: rotate(180deg);
+
+  /* IE */
+  -ms-transform: rotate(180deg);
+
+  /* Opera */
+  -o-transform: rotate(180deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+#about {
+  background: #8e44ad;
+  color: #fff;
+  padding: 20px;
+  height: auto;
+  min-height: 100% !important;
+}
+
+#runnix {
+  background: #c0392b;
+  color: #fff;
+  padding: 10px;
+  height: auto;
+  min-height: 100% !important;
+}
+
+#footer {
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  background: #ecf0f1;
+}
+
+@media all and (max-width:700px) {
+  .inline-image {
+    width:calc(100% - 20px);
+    margin:10px;
+  }
+}
+
+i {
+  font-style: normal;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 80pt;
+}
+
+h3 {
+  font-size: 40pt;
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+a::hover {
+  color: #34495e;
+}
