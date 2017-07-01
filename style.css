@@ -50,6 +50,7 @@ a {
 	-webkit-transition: width .9s ease;
 	-moz-transition: width .9s ease;
 	transition: width .9s ease;
+	overflow: hidden; /* chrome is bad ms */
 }
 
 #links a {
