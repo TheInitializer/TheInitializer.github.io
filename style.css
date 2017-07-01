@@ -42,7 +42,7 @@ a {
 #links {
 	width: 0px;
 	height: 52px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	right: 0;
 	background: white;
