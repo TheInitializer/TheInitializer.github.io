@@ -1,0 +1,70 @@
+html, body {
+	background-image: linear-gradient( 135deg, #43CBFF 0%, #9708CC 100%);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: Cantarell, sans-serif;
+}
+
+#content {
+	padding: 10%;
+	font-size: 24px;
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: normal;
+}
+
+a {
+	color: white;
+}
+
+#more {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 5px;
+}
+
+.dot {
+	background: white;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+}
+
+#links {
+	width: 0px;
+	height: 52px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: white;
+	color: #222;
+	-webkit-transition: width .9s ease;
+	-moz-transition: width .9s ease;
+	transition: width .9s ease;
+}
+
+#links a {
+	color: #222;
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 22px;
+	line-height:52px;
+	height: inherit;
+}
+
+#more:focus ~ #links {
+	width: 100%;
+}
+
+#bloglink:focus ~ #links {
+	width: 0px;
+}
